@@ -1,0 +1,27 @@
+th, td{
+    border: 1px solid black;
+}
+button {
+    padding: 30px;
+    background-color: black; 
+    transition-duration: 0.3s;
+}
+button:hover {
+    background-color: white;
+    color:red;
+}
+
+table {
+    border-spacing: 20px;
+}
+
+#titulo{
+    height: 10px;
+    text-align: center;
+}
+#cuadro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

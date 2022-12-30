@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Juego</title>
+</head>
+<body>
+    <h1 id="titulo">Juego Tres en raya</h1>
+    <div id="cuadro"> 
+        <table >
+            <tr>
+                <th>
+                    <button id="00" onclick="marcar(0,0)"></button>
+                </th>
+                <td>
+                    <button id="01" onclick="marcar(0,1)"></button>
+                </td>
+                <td>
+                    <button id="02" onclick="marcar(0,2)"></button>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button id="10" onclick="marcar(1,0)"></button>
+                </th>
+                <td>
+                    <button id="11" onclick="marcar(1,1)"></button>
+                </td>
+                <td>
+                    <button id="12" onclick="marcar(1,2)"></button>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <button id="20" onclick="marcar(2,0)"></button>
+                </th>
+                <td>
+                    <button id="21" onclick="marcar(2,1)"></button>
+                </td>
+                <td>
+                    <button id="22" onclick="marcar(2,2)"></button>
+                </td>
+            </tr>
+        </table>
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
